@@ -7,7 +7,8 @@ Extracts the earliest and latest dates on which transactions occurred.
 
 ```sql
 SELECT MIN(transaction_date) AS earliest_date, MAX(transaction_date) AS latest_date
-FROM credit_card_transactions; 
+FROM credit_card_transactions;
+```
 
 2. Card Types
 Lists all unique credit card types represented in the transactions.
